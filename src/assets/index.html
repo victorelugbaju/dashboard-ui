@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/src/assets/css/style.css" />
+  </head>
+</html>
+
+<body>
+  <div class="left-navigation">
+    <h1 class="dashboard">Dashboard</h1>
+    <button class="active-button">Home</button>
+    <button class="inactive-button">Orders</button>
+    <button class="inactive-button">Products</button>
+    <button class="inactive-button">Customers</button>
+    <button class="inactive-button">Analytics</button>
+    <button class="inactive-button">Settings</button>
+    <button class="inactive-button">Logout</button>
+  </div>
+  <header class="header">
+    <div class="search-container">
+      <div class="search-box">
+        <img id="search" src="search.svg" alt="" />
+        <input
+          class="search-input"
+          type="text"
+          placeholder="Search any item..."
+        />
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="notification-icon">
+        <img id="bell" src="bell.svg" alt="" />
+      </div>
+
+      <div class="profile-dropdown">
+        <div class="profile-image">
+          <img src="profile-image.png" alt="Profile" />
+        </div>
+        <img id="dropdown" src="dropdown.svg" alt="" />
+      </div>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div class="metrics-container">
+      <div class="metric-card">
+        <div class="metric-header">
+          <div><img id="sales" src="sales.svg" alt="" /></div>
+        </div>
+        <div class="metric-label">Total Sales</div>
+        <div class="metric-value">11,024</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-header">
+          <div><img id="income" src="income.svg" alt="" /></div>
+        </div>
+        <div class="metric-label">Total Income</div>
+        <div class="metric-value">16,752,400</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-header">
+          <div><img id="customers" src="customers.svg" alt="" /></div>
+        </div>
+        <div class="metric-label">Total Customers</div>
+        <div class="metric-value">2,048</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-header">
+          <div>
+            <img
+              id="returning-customers"
+              src="returning-customers.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="metric-label">Total Returning Customers</div>
+        <div class="metric-value">1,510</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects-section">
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3 class="project-title">Super Cool Project</h3>
+        <p class="project-description">
+          Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed
+          dolor tincidunt, consectetur adipiscing elit. Suspendisse sollicitudin
+          nibh erat, id facilisis diam accumsan nec.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">Less Cool Project</h3>
+        <p class="project-description">
+          Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed
+          dolor tincidunt, consectetur adipiscing elit. Duis sem purus,
+          dignissim ut sapien in, varius pellentesque lacus.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">Impossible App</h3>
+        <p class="project-description">
+          Sed varius enim lorem ullamcorper dolore aliqua aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">Easy Peasy App</h3>
+        <p class="project-description">
+          Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna
+          eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
